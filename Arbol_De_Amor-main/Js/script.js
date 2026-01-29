@@ -73,7 +73,7 @@ function showDedicationText() {
   //seguidores
   let text = getURLParam("text");
   if (!text) {
-    text = `Para mi amor más bonito:\n\nMe he dado cuenta de algo muy simple y a la vez inmenso: quiero estar contigo por el resto de mi vida. \n\n Te amo más de lo que a veces sé explicar con palabras, y aun así sé que te elegiría mil veces, en esta y en cualquier otra vida. \n\n En tan poco tiempo has cambiado cosas en mí que no sabía que podían cambiar. Contigo siento emociones nuevas, reales, únicas. Gracias al universo por cruzarte en mi camino y gracias a ti por aceptarme tal como soy. \n\n Sé que aún no conocemos todas nuestras sombras, pero quiero estar aquí para acompañarte en las tuyas, así como deseo que camines conmigo en las mías. \n\n Solo ha pasado un mes, y aun así tengo claro algo: quiero seguir esta historia contigo, de la mano, sin imaginar un final que no sea a tu lado. \n\n Te amo.❤️`;
+    text = `Para mi paisa coleta:\n\nEn estos días de lluvia arrojo mis besos al cielo, esperando que alguna gota caiga en tus labios y te recuerde que, aun desde la distancia, desde algún rincón de esta gran ciudad hay un corazón que no deja de pensarte. \n\n Te amo.❤️`;
   } else {
     text = decodeURIComponent(text).replace(/\\n/g, "\n");
   }
